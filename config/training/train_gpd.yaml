@@ -1,0 +1,15 @@
+# @package _global_
+job_name: planTF
+py_func: train
+objective_aggregate_mode: mean
+
+defaults:
+  - override /data_augmentation:  # 这一行代表：去planTF/config/data_augmentation目录下，读state_perturbation.yaml
+      - state_perturbation
+  - override /splitter: nuplan  # 这一行代表：去nuplan-devkit/nuplan/planning/script/config/common/splitter，读nuplan.yaml
+  - override /model: gpd
+  - override /scenario_filter: training_scenarios_1M
+  - override /custom_trainer: gpd
+  - override /lightning: custom_lightning
+
+# 搜索空间的配置见：planTF/config/default_training.yaml中的 searchpath

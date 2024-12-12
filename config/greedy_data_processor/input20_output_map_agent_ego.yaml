@@ -1,0 +1,2 @@
+_target_: src.greedy_decode.data_preprocess.greedy_data_processor_base.GreedyDataProcessorBase
+_convert_: "all"

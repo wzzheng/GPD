@@ -1,0 +1,7 @@
+_target_: src.models.gpd.lightning_trainer_for_test.LightningTrainer  # 测试数据集统计信息
+_convert_: "all"
+
+is_visual: False
+need_map_restruction_metric: True
+need_agent_restruction_metric: True
+need_ego_restruction_metric: True

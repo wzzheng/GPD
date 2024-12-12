@@ -1,0 +1,2 @@
+_target_: src.greedy_decode.greedy_decode.reg_agent_ego_greedy_decode.RegAgentEgoGreedyDecode
+_convert_: "all"

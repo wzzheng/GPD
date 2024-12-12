@@ -1,0 +1,24 @@
+_target_: src.models.gpd.planning_model.PlanningModel
+_convert_: "all"
+
+dim: 128  # transformer d_model
+attn_num_layers: 6
+attn_num_heads: 8
+map_tokenizer_weight_path: ''   # Path to the map VQ-VAE tokenizer weights trained in Stage 1
+
+feature_builder_agent:
+  _target_: src.feature_builders.nuplan_feature_builder.NuplanFeatureBuilder
+  _convert_: "all"
+  radius: 150
+  history_horizon: 2
+  future_horizon: 8
+  sample_interval: 0.1
+  max_agents: 32
+
+feature_builder_map_latent:
+  _target_: src.feature_builders.map_latent_builder.MapLatentBuilder
+  _convert_: "all"
+
+feature_builder_map_info:
+  _target_: src.feature_builders.map_info_builder.MapInfoBuilder
+  _convert_: "all"

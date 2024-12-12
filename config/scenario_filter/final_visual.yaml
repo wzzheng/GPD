@@ -1,0 +1,39 @@
+_target_: nuplan.planning.scenario_builder.scenario_filter.ScenarioFilter
+_convert_: "all"
+
+scenario_types: null
+scenario_tokens: 
+  - "86bbad6f5ba75e1d"
+  - "2f840bec429579a"
+  - "3fb2c849dd0350f4"
+  - "f62d5aeaa5b85545"
+  - "467e4b532a655004"
+  - "6e35dcaad9f35464"
+  - "eca0c55ec5c85fb1"
+  - "49741bf871155134"
+  - "350096fa1da5d5d"
+
+log_names:
+  - 2021.06.07.17.46.49_veh-35_04839_05184
+  - 2021.06.07.12.01.13_veh-47_00730_00915
+  - 2021.06.08.14.36.49_veh-38_01567_02014
+  - 2021.06.08.14.57.07_veh-47_01556_01964
+  - 2021.06.07.17.46.49_veh-35_02607_03120
+  - 2021.07.24.20.58.00_veh-35_00798_01211
+  - 2021.06.07.13.53.57_veh-35_01195_01572
+  - 2021.06.07.13.53.57_veh-35_00428_00678
+  - 2021.06.08.12.00.19_veh-35_04422_04725
+
+map_names: null # Filter scenarios by map names
+
+num_scenarios_per_type: null # Number of scenarios per type
+limit_total_scenarios: null # Limit total scenarios (float = fraction, int = num) - this filter can be applied on top of num_scenarios_per_type
+timestamp_threshold_s: 15 # Filter scenarios to ensure scenarios have more than `timestamp_threshold_s` seconds between their initial lidar timestamps
+ego_displacement_minimum_m: null # Whether to remove scenarios where the ego moves less than a certain amount
+ego_start_speed_threshold: null # Limit to scenarios where the ego reaches a certain speed from below
+ego_stop_speed_threshold: null # Limit to scenarios where the ego reaches a certain speed from above
+speed_noise_tolerance: null # Value at or below which a speed change between two timepoints should be ignored as noise.
+
+expand_scenarios: false # Whether to expand multi-sample scenarios to multiple single-sample scenarios
+remove_invalid_goals: true # Whether to remove scenarios where the mission goal is invalid
+shuffle: false # Whether to shuffle the scenarios
