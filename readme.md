@@ -5,7 +5,7 @@ Check out our [Large Driving Model](https://github.com/wzzheng/LDM/) Series!
 
 > GPD-1: Generative Pre-training for Driving
 
-> [Zixun Xie](https://github.com/rainyNighti)\*, [Sicheng Zuo](https://github.com/zuosc19)\*, [Wenzhao Zheng](https://wzzheng.net/)\*$\dagger$, [Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao), [Dalong Du](TODO), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Shanghang Zhang](https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=en)$\ddagger$
+> [Zixun Xie](https://github.com/rainyNighti)\*, [Sicheng Zuo](https://github.com/zuosc19)\*, [Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$, [Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao), [Dalong Du](TODO), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Shanghang Zhang](https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=en)$\ddagger$
 
 \* Equal contribution $\dagger$ Project leader $\ddagger$ Corresponding author
 
@@ -15,7 +15,7 @@ GPD-1 proposes a unified approach that seamlessly accomplishes multiple aspects 
 
 ## News
 - **[2024/12/12]** Code released.
-- - **[2024/12/12]** Paper released on [arXiv](https://arxiv.org/abs/2412.08643).
+- **[2024/12/12]** Paper released on [arXiv](https://arxiv.org/abs/2412.08643).
 
 ## Demo
 
