@@ -55,8 +55,8 @@ Code will be available soon.
 ## Related Projects
 
 Our work is inspired by these excellent open-sourced repos:
-[planTF](https://github.com/jchengai/planTF)
-[sledge](https://github.com/autonomousvision/sledge)
+[PlanTF](https://github.com/jchengai/planTF)
+[Sledge](https://github.com/autonomousvision/sledge)
 
 ## Citation
 
